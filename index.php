@@ -10,4 +10,12 @@ class Test{
 		$this->line = $line;
 		$this->error = $error;
 	}
+	
+	public function getUrl(){
+		return $this->url;
+	}
+	
+	public function getLine(){
+		return $this->line;
+	}
 }
