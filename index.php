@@ -8,4 +8,12 @@ class Test{
 		$this->url = $url;
 		$this->line = $line;
 	}
+	
+	public function getUrl(){
+		return $this->url;
+	}
+	
+	public function getLine(){
+		return $this->line;
+	}
 }
